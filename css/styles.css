@@ -463,3 +463,14 @@ li.contact:hover {
     background: rgb(12, 12, 12);
     outline: 2px solid #fff;
 }
+
+p.contact {
+    margin: auto;
+    margin-left: 0;
+    padding: 0 10px;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
