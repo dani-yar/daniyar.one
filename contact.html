@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css?ver=2.0.0"> <!-- main styles -->
+    <link rel="stylesheet" href="css/adapt.css?ver=2.0.0"> <!-- adaptation -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+   <div class="container">
+       <header>
+        <menu onclick="new_lang()" class="lang" id="lang"><a class="lang" id="lang_lang">RU</a></menu>
+        <menu onclick="new_lang()" class="lang" id="m_lang"><a class="lang" id="lang_lang1">RU</a></menu>
+          <menu class="menu">
+              <a href="index" id="home_menu" onclick="contact_none(); pf_none();" class="menu">About me</a>
+              <a href="portfolio" id="pf_menu" onclick="home_none(); contact_none();" class="menu">Portfolio</a>
+              <a href="" id="contact_menu" onclick="home_none(); pf_none();" class="menu active">Contact me</a>     
+          </menu>
+       </header>
+       <main id="contact_page">
+            <div class="contact_block" id="c0">
+                <p class="ctext" id="con_lang_soc">Contact me via social networks</p>
+            </div>
+            <div class="contact_block" id="c1">
+                <ul class="contact">
+                    <a href="mailto:contact@daniyar.one" target="_blank"><li class="contact">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="contact" fill-rule="evenodd" clip-rule="evenodd" d="M15 30C6.71573 30 0 23.2843 0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30ZM15.209 14.1581C16.4372 14.1581 22.409 10.8 22.409 10.8L22.4186 10.2C22.4186 9.53758 21.881 8.99998 21.2168 8.99998H9.20118C8.53758 8.99998 7.99998 9.53758 7.99998 10.2V10.7346C7.99998 10.7346 14.0372 14.1581 15.209 14.1581ZM8.00958 12.6C8.00898 12.6 14.0372 15.8081 15.209 15.8081C16.4936 15.8081 22.409 12.6 22.409 12.6L22.4186 19.8C22.4186 20.4624 21.881 21 21.2168 21H9.20118C8.53818 21 7.99998 20.4624 7.99998 19.8L8.00958 12.6Z" fill="white"/>
+                        </svg>
+                        <p class="contact">contact@daniyar.one</p>
+                    </li></a>
+                    <a href="https://t.me/daniyarone" target="_blank"><li class="contact">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="contact" fill-rule="evenodd" clip-rule="evenodd" d="M0 15C0 23.2843 6.71573 30 15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15ZM12.25 21.875L12.5052 18.0514L12.505 18.0513L19.4606 11.7744C19.7658 11.5035 19.3939 11.3713 18.9887 11.6171L10.4046 17.0327L6.69668 15.8754C5.89594 15.6302 5.89019 15.08 6.87645 14.6844L21.3252 9.11304C21.9851 8.81344 22.622 9.27154 22.3701 10.2816L19.9095 21.8769C19.7377 22.7009 19.2398 22.898 18.55 22.5174L14.8017 19.7481L13 21.5C12.9943 21.5055 12.9887 21.511 12.983 21.5165C12.7815 21.7127 12.6148 21.875 12.25 21.875Z" fill="white"/>
+                        </svg>
+                        <p class="contact">@daniyarone</p>
+                    </li></a>
+                    <a href="https://wa.me/+79638993501" target="_blank"><li class="contact">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="contact" fill-rule="evenodd" clip-rule="evenodd" d="M0 15C0 23.2843 6.71573 30 15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15ZM24.4138 14.4259C24.4119 19.3427 20.4122 23.3433 15.4944 23.3453H15.4907C13.9979 23.3448 12.5311 22.9703 11.2283 22.2597L6.5 23.5L7.76538 18.878C6.98483 17.5253 6.57411 15.9909 6.57478 14.4189C6.57674 9.50106 10.578 5.5 15.4943 5.5C17.8804 5.50103 20.1199 6.42992 21.8039 8.11588C23.4879 9.80176 24.4148 12.0427 24.4138 14.4259Z" fill="white"/>
+                            <path class="contact" fill-rule="evenodd" clip-rule="evenodd" d="M8.64163 21.381L11.4475 20.6449L11.7182 20.8056C12.8564 21.4811 14.1612 21.8385 15.4915 21.839H15.4945C19.5806 21.839 22.9063 18.5132 22.9079 14.4254C22.9087 12.4445 22.1383 10.5819 20.7386 9.18063C19.3389 7.77932 17.4776 7.00722 15.4974 7.00653C11.4082 7.00653 8.08243 10.3319 8.08081 14.4194C8.08024 15.8202 8.47218 17.1845 9.21429 18.3648L9.39055 18.6453L8.64163 21.381ZM19.6828 16.3463C19.8383 16.4214 19.9432 16.4721 19.9881 16.547C20.0438 16.6399 20.0438 17.0861 19.8581 17.6068C19.6723 18.1274 18.782 18.6025 18.3538 18.6665C17.9698 18.7239 17.4839 18.7478 16.95 18.5781C16.6263 18.4755 16.2112 18.3383 15.6795 18.1087C13.5902 17.2065 12.1782 15.1815 11.9114 14.7988C11.8927 14.772 11.8796 14.7532 11.8723 14.7435L11.8705 14.7411C11.7526 14.5837 10.9623 13.5293 10.9623 12.438C10.9623 11.4114 11.4665 10.8733 11.6987 10.6256C11.7146 10.6087 11.7292 10.5931 11.7423 10.5788C11.9466 10.3556 12.188 10.2999 12.3366 10.2999C12.4852 10.2999 12.6339 10.3012 12.7637 10.3077C12.7798 10.3086 12.7964 10.3085 12.8137 10.3084C12.9435 10.3076 13.1055 10.3066 13.2652 10.6903C13.3266 10.838 13.4165 11.0569 13.5114 11.2877C13.7032 11.7546 13.915 12.2705 13.9523 12.3451C14.0081 12.4567 14.0452 12.5868 13.9709 12.7356C13.9598 12.7579 13.9494 12.779 13.9396 12.7991C13.8838 12.913 13.8427 12.9968 13.748 13.1074C13.7108 13.1508 13.6723 13.1977 13.6338 13.2446C13.5572 13.338 13.4805 13.4313 13.4137 13.4978C13.3022 13.609 13.186 13.7295 13.316 13.9527C13.446 14.1758 13.8933 14.9056 14.5559 15.4966C15.2681 16.1318 15.8871 16.4003 16.2008 16.5364C16.2621 16.563 16.3117 16.5845 16.3481 16.6027C16.5709 16.7143 16.7009 16.6957 16.8309 16.547C16.9609 16.3982 17.3881 15.8962 17.5366 15.6731C17.6852 15.45 17.8338 15.4872 18.038 15.5615C18.2424 15.636 19.3381 16.1751 19.5609 16.2866C19.6045 16.3084 19.6451 16.3281 19.6828 16.3463Z" fill="white"/>
+                        </svg>
+                        <p class="contact">+7(963) 899-35-01</p>
+                    </li></a>
+                </ul>
+            </div>
+       </main>
+   </div>
+
+   <div class="mobile_menu"><input onclick="mmenu_anim(); fixed_lang()" type="checkbox" id="hmt" class="hidden-menu-ticker">
+        <label class="btn-menu" for="hmt">
+            <span class="first"></span>
+            <span class="second"></span>
+            <span class="third"></span>
+        </label>
+        <ul class="hidden-menu">
+            <a href="index"><div id="mmenu1" onclick="contact_none();pf_none();" class="mmenu">About me</div></a>
+            <a href="portfolio"><div id="mmenu2" onclick="home_none();contact_none();" class="mmenu">Portfolio</div></a>
+            <a><div id="mmenu3" onclick="home_none();pf_none();" class="mmenu active">Contact me</div></a> 
+        </ul>
+    </div>
+</body>
+</html>
+<script>
+    var page = "contact_me";
+
+    setTimeout('document.getElementById("c0").style.opacity="100"; document.getElementById("c0").style.marginTop="0";', 0);
+    setTimeout('document.getElementById("c1").style.opacity="100"; document.getElementById("c1").style.marginTop="0";', 300);
+
+  function noneId() {
+        setTimeout("history.pushState('', document.title, window.location.pathname)", 50);
+    }
+  
+    function fixed_lang() {
+        var menuCheckbox = document.querySelector('input[type=checkbox]');
+        if (menuCheckbox.checked) {
+            document.getElementById("m_lang").style.visibility = "visible";
+            document.getElementById("lang").style.visibility = "hidden";
+        } else {
+            document.getElementById("m_lang").style.visibility = "hidden";
+            document.getElementById("lang").style.visibility = "visible";
+        }
+    }
+
+</script>
+<script src="js/code.js?ver=2.0.0"></script>
+<script src="js/lang.js?ver=2.0.0"></script>

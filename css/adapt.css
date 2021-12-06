@@ -1,0 +1,117 @@
+@media(max-width: 1300px) {
+    div.block_case_pr, a.pf {
+        width: 23%;
+        height: auto;
+    }
+}
+
+@media(max-width: 1100px) {
+    div.block_case_pr, a.pf {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media(max-width: 900px) {
+    div.block_case_pr, a.pf {
+        width: 46%;
+        height: auto;
+    }
+    ul.contact {
+        display: block;
+    }
+    li.contact {
+        margin: 20px 0;
+    }
+}
+
+@media(max-width: 640px) {
+    div.block_case_pr, a.pf {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 600px) {
+    menu.menu {
+        display: none;
+    }
+    p.hello, p.name, p.iam {
+        font-size: 30px;
+    }
+    .mobile_menu {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) {
+    img.pr:hover ~ .name_case_pr, .name_case_pr:hover {
+        margin-top: -150px;
+        transition: .5s;
+    }
+    
+    img.pr:hover,
+    .name_case_pr:hover ~ img.pr,
+    p.name_case:hover ~ img.pr,
+    p.about_case:hover ~ img.pr {
+        opacity: 50%;
+        transition: .5s;
+    }
+}
+
+@media(max-width: 500px) {
+    p.hello, p.name, p.iam {
+        font-size: 25px;
+    }
+    main {
+        margin: 0 40px !important;
+    }
+    header {
+        padding: 17px;
+    }
+    .btn-menu, .hidden-menu-ticker:checked ~ .btn-menu {
+        top: 25px;
+        right: 30px;
+    } 
+}
+@media(max-width: 386px) {
+    p.hello, p.name, p.iam {
+        font-size: 23px;
+    }
+    svg.soc {
+        width: 35px;
+        height: 35px;
+    }
+    .btn-menu, .hidden-menu-ticker:checked ~ .btn-menu {
+        top: 23px;
+        right: 23px;
+    } 
+}
+@media(max-width: 350px) {
+    p.hello, p.name, p.iam {
+        font-size: 20px;
+    }
+    svg.soc {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media(max-width: 326px) {
+    p.hello, p.name, p.iam {
+        font-size: 17px;
+    }
+    svg.soc {
+        width: 30px;
+        height: 30px;
+    }
+    main {
+        margin: 0 30px !important;
+    }
+    header {
+        padding: 10px;
+    }
+    .btn-menu, .hidden-menu-ticker:checked ~ .btn-menu {
+        top: 17px;
+        right: 23px;
+    } 
+}
