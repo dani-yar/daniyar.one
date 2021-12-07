@@ -1,3 +1,9 @@
+// Redirect HTTPS
+if (window.location.protocol!='http:') {}
+else {
+    window.location.href = "https://daniyar.one";
+}
+
 // Mobile menu animation 
 var chet = 0;
 function mmenu_anim() {
@@ -12,10 +18,5 @@ function mmenu_anim() {
         setTimeout("document.getElementById('mmenu2').style.marginLeft = '100px'; document.getElementById('mmenu2').style.opacity = '0'", 200);
         setTimeout("document.getElementById('mmenu3').style.marginLeft = '100px'; document.getElementById('mmenu3').style.opacity = '0'", 300);
     }
-}
-
-if (window.location.protocol!='http:') {}
-else {
-    window.location.href = "https://daniyar.one";
 }
 
