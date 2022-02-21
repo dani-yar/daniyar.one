@@ -331,6 +331,7 @@ svg.soc {
     margin: 0;
     margin-right: 25px;
     cursor: pointer;
+    position: relative;
 }
 
 svg.soc:hover {
